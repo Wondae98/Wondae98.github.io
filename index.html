@@ -10,17 +10,15 @@ robots: noindex
     {% for project in site.data.projects %}
 
       <li class="timeline-inverted">
-        <font size="3em" color="green">
+        <font size="3em" color="Orange">
           Academic
         </font>
         <font size="3em" color="gray">
+          
           B.S. in Aerospace Engineering @ Korea Aerospace University
         </font>
-      \
-            {{ project.desc | markdownify }}
-            <div user="{{ project.gh_user }}" style="margin-top: 0px;">
-              <div style="height: 0px;"></div>
-          </div>
+        
+         
         </div>
       </li>
     {% endfor %}
