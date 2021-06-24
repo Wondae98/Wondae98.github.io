@@ -3,6 +3,3 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Academic
   desc: B.S. in Aerospace Engineering @ Korea Aerospace University
-
-- name: Research Experiences
-  desc: Development of Vision Based Suicide Multirotor System
