@@ -4,20 +4,5 @@
 - name: Academic
   desc: B.S. in Aerospace Engineering @ Korea Aerospace University
 
-- name: Jekyll Theme
-  gh_user: tzuehlke
-  repo: jekyll-uno-timeline
-  img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
-  desc: This Jekyll Theme. Based on the Uno-Theme with a list of projects as timeline. Like a business card.
-
-- name: Azure Automation Scripts
-  gh_user: tzuehlke
-  repo: scripts
-  img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
-  desc: Some scripts that I used with Azure Automation. For example a VM Start/Stop script or a script for resetting a VPN tunnel.
-
-- name: Face API
-  gh_user: ArvatoSystems
-  repo: FaceApiWPF
-  img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
-  desc: Using the WebCam and send continuously pictures to the Azure FaceAPI. The analyzed results like age and emotion drawn on the WebCam stream. 
+- name: Research Experiences
+  desc: Development of Vision Based Suicide Multirotor System
