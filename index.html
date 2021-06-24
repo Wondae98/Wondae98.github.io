@@ -8,7 +8,8 @@ robots: noindex
   <ul class="timeline">
     
     {% for project in site.data.projects %}
-    <div class="timeline-image">
+    <li class="timeline-inverted">
+        <div class="timeline-image">
         </div>
         <div class="timeline-panel">
           <div class="timeline-heading">
@@ -20,6 +21,15 @@ robots: noindex
            &nbsp&nbsp B.S. in Aerospace Engineering @ Korea Aerospace University
         </font>
           </div>
+          <div class="timeline-body">
+            {{ project.desc | markdownify }}
+            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+              <div style="height: 10px;"></div>
+          </div>
+        </div>
+      </li>
+    
+ 
         
     {% endfor %}
     <!--
