@@ -9,6 +9,7 @@ robots: noindex
     
     {% for project in site.data.projects %}
     <li class="timeline-inverted">
+      <div class="timeline-image">
         </div>
         <div class="timeline-panel">
           <div class="timeline-heading">
@@ -21,8 +22,6 @@ robots: noindex
         </font>
           </div>
           <div class="timeline-body">
-            {{ project.desc | markdownify }}
-            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
               <div style="height: 10px;"></div>
           </div>
         </div>
