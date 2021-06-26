@@ -6,48 +6,46 @@ robots: noindex
 <!--<div class="main-post-list">-->
 
   <ul class="timeline">
-    
+
     {% for project in site.data.projects %}
 
       <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
         <div class="timeline-panel">
           <div class="timeline-heading">
-            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
           </div>
-          <div class="timeline-body">
-            <table width="100%" style="text-align:center; border:none">
-    <tr>
-      <font size="5em" color="orange">
-        Academic </font>
+          <table width="100%" style="text-align:center; border:none">
+              <tr>
+                <font size="5em" color="orange">
+                  Academic </font>
 
-      <td style="background-color:#339999; text-align:left; width:170px; vertical-align:top; ">
-          March, 2017 - Feb, 2021 <br> </td>
-      <td style="background-color:#339999; text-align:left; vertical-align:top">
-      <font size="3em" color="black">
-        <A href = "URL" target = "https://www.kau.ac.kr/web/english/index.do" ><b>Korea Aerospace University</b></A>
-        <b> - B.S. in Aerospace Engineering</b>, Goyang, Gyunggido, Republic of Korea <br>
-        Thesis :  Development and Test Flight of Small Long-Endurance Solar Powered UAV (Advisor: Prof. Jae-Sung Bae) <br>
-        GPA: 4.1/4.5, <b> honored with Magna Cum Laude </b> <br><br>
-      </font></td>
-    </tr>
-    <tr>
-      <td style="background-color:#339999; text-align:left; width:190px; vertical-align:top; ">
-          Jan, 2019 - May, 2019 <br> </td>
-      <td style="background-color:#339999; text-align:left; vertical-align:top">
-      <font size="3em" color="black">
-        <A href = "URL" target = "https://www.kau.ac.kr/web/english/index.do" ><b>Kent State University</b></A>
-        — Exchange Program, Kent, Ohio, United States<br>
-        President’s List – 2019 Spring with 4.0/4.0 GPA
+                <td style="background-color:#339999; text-align:left; width:190px; vertical-align:top; ">
+                    March, 2017 - Feb, 2021 <br> </td>
+                <td style="background-color:#339999; text-align:left; vertical-align:top">
+                <font size="3em" color="black">
+                  <A href = "URL" target = "https://www.kau.ac.kr/web/english/index.do" ><b>Korea Aerospace University</b></A>
+                  <b> - B.S. in Aerospace Engineering</b>, Goyang, Gyunggido, Republic of Korea <br>
+                  Thesis :  Development and Test Flight of Small Long-Endurance Solar Powered UAV (Advisor: Prof. Jae-Sung Bae) <br>
+                  GPA: 4.12/4.5, <b> honored with Magna Cum Laude </b> <br><br>
+                </font></td>
+              </tr>
+              <tr>
+                <td style="background-color:#339999; text-align:left; width:190px; vertical-align:top; ">
+                    Jan, 2019 - May, 2019 <br> </td>
+                <td style="background-color:#339999; text-align:left; vertical-align:top">
+                <font size="3em" color="black">
+                  <A href = "URL" target = "https://www.kau.ac.kr/web/english/index.do" ><b>Kent State University</b></A>
+                  — Exchange Program, Kent, Ohio, United States<br>
+                  President’s List – 2019 Spring with 4.0/4.0 GPA
 
-         &emsp;  <br>
-      </font></td>
-    </tr>
+                   &emsp;  <br>
+                </font></td>
+              </tr>
 
 
-</table>
-            
-          </div>
-        </div>
+          </table>
       </li>
     {% endfor %}
     <!--
